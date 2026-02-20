@@ -1,28 +1,4 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#fd45e8",
-        "activityBar.background": "#fd45e8",
-        "activityBar.foreground": "#15202b",
-        "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#545f01",
-        "activityBarBadge.foreground": "#e7e7e7",
-        "commandCenter.border": "#e7e7e799",
-        "sash.hoverBorder": "#fd45e8",
-        "statusBar.background": "#fc13e2",
-        "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#fd45e8",
-        "statusBarItem.remoteBackground": "#fc13e2",
-        "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#fc13e2",
-        "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#fc13e299",
-        "titleBar.inactiveForeground": "#e7e7e799",
-        "panel.border": "#fd45e8",
-        "sideBar.border": "#fd45e8",
-        "statusBar.border": "#fc13e2",
-        "titleBar.border": "#fc13e2"
-    },
-    "peacock.color": "#fc13e2",
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
         "editor.formatOnSave": true,
