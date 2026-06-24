@@ -71,8 +71,9 @@ impl Kind {
         // Row 3: [KEY_7]  [KEY_8]  [KEY_9]   <- Main row 2 (inputs 7, 8, 9)
         // Row 4: [KEY_10] [KEY_11] [KEY_12]  <- Main row 3 (inputs 10, 11, 12)
         // Row 5: [KEY_13] [KEY_14] [KEY_15]  <- Main row 4 (inputs 13, 14, 15)
-        // Note: The 2 top normal buttons (inputs 30, 31) are NOT shown in GUI
-        // (They work but have no display, so we hide them to avoid confusion)
+        // Note: The 2 face buttons (inputs 30, 31) have no display of their own,
+        // so they are routed onto the top display slots (keys 0 and 1) in inputs.rs
+        // rather than occupying their own grid positions.
         (6, 3)
     }
 
